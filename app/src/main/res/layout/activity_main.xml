@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5E5E5E"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/recommend_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_recommend_1"
+        android:text="表情"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/recommend_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/recommend_1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_recommend_2"
+        android:text="语音"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/recommend_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/recommend_1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_recommend_3"
+        android:text="心跳"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/recommend_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/recommend_2"
+        android:layout_toRightOf="@id/recommend_3"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_recommend_4"
+        android:text="天气"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/recommend_5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/recommend_3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_recommend_5"
+        android:text="情景"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/recommend_6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/recommend_4"
+        android:layout_toRightOf="@id/recommend_5"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_recommend_6"
+        android:text="自选"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/recommend_7"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/recommend_5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/bg_recommend_7"
+        android:text="确定"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
